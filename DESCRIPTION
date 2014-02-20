@@ -1,0 +1,22 @@
+Package: glmd
+Version: 0.1
+Date: 2014-02-20
+Title: General Linear Model Diagnostics
+Authors@R: c(person("Athos P. Damiani", "Developer", role=c("aut","cre"),email
+    = "athos.damiani@gmail.com"), person("Julio A. Z. Trecenti", "Developer",
+    role=c("aut","cre"),email = "jtrecenti@ime.usp.br"))
+Author: Athos P. Damiani and Julio A. Z. Trecenti
+Maintainer: Athos P. Damiani <athos.damiani@gmail.com> and Julio A. Z. Trecenti
+    <jtrecenti@ime.usp.br>
+Depends:
+    ggplot2,
+    dplyr
+Suggests:
+    MASS
+Description: Tools for visualize and evaluate (d)glm and gee fits.
+License: MIT
+Imports:
+    gee,
+    MASS
+URL: github.com/Athospd/glmd/wiki
+BugReport: github.com/Athospd/glmd/issues

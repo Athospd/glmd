@@ -8,16 +8,19 @@
   Faz diagnóstico de um objeto 'glm' segundo livro Giba (2014). 
 }
 \usage{
-glmd(model, ...)
+glmd(model, ggplot=TRUE, ...)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{model}{
-%%     ~~Describe \code{model} here~~
-}
+    a glm object. The fit object of the model to be evaluated.
+  }
+  \item{ggplot}{
+    a boolean. If FALSE (default), base plot will be used to generate the diagnostic plots. Otherwise, will be generated a ggplot version of it. 
+  }
   \item{\dots}{
-%%     ~~Describe \code{\dots} here~~
-}
+    additional arguments passed to plot. If ggplot is set to FALSE, these arguments are passed to \code{plot} and passed to \code{ggplot} otherwise.
+  }
 }
 \details{
   Os detalhes são x, y e z.
